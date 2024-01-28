@@ -30,6 +30,7 @@ h3 {
   align-items: center;
   flex-grow: 1;
   justify-content: space-between;
+  padding: 24px 0 24px 0;
 }
 a {
   text-decoration: none;
@@ -51,10 +52,10 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .logo-part {
   color: #2e2f42;
-  margin-right: 76px;
 }
 .nav-link-container {
   display: inline-flex;
@@ -129,26 +130,31 @@ ol {
 .button:focus {
   background-color: #404bbf;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .section-title-small {
   display: flex;
-  margin-top: 120px;
+  padding: 120px 0 120px 0;
   gap: 24px;
 }
 .section-title-small-link {
-  width: 264px;
+  width: calc((100% - 3 * 24px) / 4);
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
-}
-.section-title-small-text {
-  margin-bottom: 120px;
-  width: 264px;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  padding-bottom: 8px;
 }
 .section-ourteam {
   background-color: #f4f4fd;
@@ -170,7 +176,7 @@ ol {
   gap: 24px;
 }
 .section-title-ourteam-link {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
