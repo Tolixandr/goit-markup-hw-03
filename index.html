@@ -20,10 +20,11 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="header">
+      <div class="container header-container">
+      <nav class="header-nav">
         <a class="logo">Web<span class="logo-part">Studio</span></a>
-        <ul>
+        <ul class="nav-link-container">
           <li>
             <a class="nav-link" href="./index.html">Studio</a>
           </li>
@@ -36,7 +37,7 @@
         </ul>
       </nav>
       <address class="address">
-        <ul>
+        <ul class="address-link-container">
           <li>
             <a class="address-link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -49,15 +50,18 @@
           </li>
         </ul>
       </address>
+      </div>
     </header>
     <main>
       <section class="section-effective">
+        <div class="container">
         <h1 class="section-title">Effective Solutions for Your Business</h1>
         <button class="button" type="button">Order Service</button>
+        </div>
       </section>
       <section>
-        <h2 class="section-title-small">About</h2>
-        <ul>
+        <div class="container">
+        <ul class="section-title-small">
           <li>
             <h3 class="section-title-small-link">Strategy</h3>
             <p class="section-title-small-text">
@@ -87,10 +91,12 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
       <section class="section-ourteam">
+        <div class="container">
         <h2 class="section-title-ourteam">Our Team</h2>
-        <ul>
+        <ul class="section-title-ourteam-ul">
           <li class="section-title-ourteam-link">
             <img
               src="./images/markguerrero.jpg"
@@ -132,74 +138,90 @@
             <p class="team-text">UI Designer</p>
           </li>
         </ul>
+         </div>
       </section>
       <section>
-        <h2>Our Portfolio</h2>
-        <ul>
-          <li>
+        <div class="container">
+        <h2 class="section-our-portolio">Our Portfolio</h2>
+        <ul class="section-our-portolio-ul" >
+          <li class="section-our-portolio-li">
             <img
               src="./images/bbanking.jpg"
               alt="Banking App"
               width="360"
               height="300"
             />
+            <div class="team-team-text">
             <h3 class="team">Banking App</h3>
             <p class="team-text">App</p>
+            </div>
           </li>
-          <li>
+          <li class="section-our-portolio-li">
             <img
               src="./images/cashlesspayment.jpg"
               alt="Cashless Payment"
               width="360"
               height="300"
             />
+            <div class="team-team-text">
             <h3 class="team">Cashless Payment</h3>
             <p class="team-text">Marketing</p>
+            </div>
           </li>
-          <li>
+          <li class="section-our-portolio-li">
             <img
               src="./images/meditationapp.jpg"
               alt="Meditation App"
               width="360"
               height="300"
             />
+            <div class="team-team-text">
             <h3 class="team">Meditation App</h3>
             <p class="team-text">App</p>
+            </div>
           </li>
-          <li>
+          <li class="section-our-portolio-li">
             <img
               src="./images/taxiservice.jpg"
               alt="Taxi Service"
               width="360"
               height="300"
             />
+            <div class="team-team-text">
             <h3 class="team">Taxi Service</h3>
             <p class="team-text">Marketing</p>
+             </div>
           </li>
-          <li>
+          <li class="section-our-portolio-li">
             <img
               src="./images/screenillustrations.jpg"
               alt="Screen Illustrations"
               width="360"
               height="300"
             />
+            <div class="team-team-text">
             <h3 class="team">Screen Illustrations</h3>
             <p class="team-text">Design</p>
+             </div>
           </li>
-          <li>
+          <li class="section-our-portolio-li">
             <img
               src="./images/onlinecourses.jpg"
               alt="Online Courses"
               width="360"
               height="300"
             />
+            <div class="team-team-text">
             <h3 class="team">Online Courses</h3>
             <p class="team-text">Marketing</p>
+            </div>
           </li>
         </ul>
+         </div>
       </section>
     </main>
     <footer class="footer">
+      <div class="container logo-part-text-footer">
       <a class="logo" href="./index.html"
         >Web<span class="logo-part-footer">Studio</span></a
       >
@@ -207,6 +229,7 @@
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
+      </div>
     </footer>
   </body>
 </html>
