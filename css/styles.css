@@ -19,11 +19,12 @@ h3 {
   margin-top: 0;
   margin-bottom: 0;
 }
-.header {
-  padding-bottom: 24px;
-  padding-top: 24px;
-}
 
+.header {
+  padding: 24px 0 24px 0;
+  border-bottom: 1px solid #E7E9FC;
+  background: #FFF;  
+}
 .header-nav {
   display: flex;
   align-items: center;
@@ -53,13 +54,13 @@ ol {
 }
 .logo-part {
   color: #2e2f42;
+  margin-right: 76px;
 }
 .nav-link-container {
   display: inline-flex;
   align-items: flex-start;
   gap: 40px;
   margin-right: 332px;
-  margin-left: 76px;
 }
 .nav-link {
   color: #2e2f42;
@@ -73,7 +74,7 @@ ol {
   color: #404bbf;
 }
 .address-link-container {
-  display: inline-flex;
+  display: flex;
   align-items: flex-start;
   gap: 40px;
 }
