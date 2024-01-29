@@ -29,7 +29,6 @@ h3 {
   align-items: center;
   flex-grow: 1;
   justify-content: space-between;
-  padding: 24px 0 24px 0;
 }
 a {
   text-decoration: none;
@@ -41,7 +40,6 @@ ol {
   margin-bottom: 0;
   padding-left: 0;
 }
-
 .logo {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
@@ -61,6 +59,7 @@ ol {
   align-items: flex-start;
   gap: 40px;
   margin-right: 332px;
+  padding: 24px 0 24px 0;
 }
 .nav-link {
   color: #2e2f42;
@@ -256,6 +255,27 @@ ol {
   background: #2e2f42;
   padding: 100px 0 100px;
 }
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-right: 76px;
+}
+.logo-part-footer {
+  color: #f4f4fd;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
 .footer-text {
   width: 264px;
   display: flex;
@@ -263,14 +283,4 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.logo-part-footer {
-  display: inline-block;
-  margin-bottom: 16px;
-  color: #f4f4fd;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
