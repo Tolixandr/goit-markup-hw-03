@@ -19,9 +19,7 @@ h3 {
   margin-top: 0;
   margin-bottom: 0;
 }
-li {
-  margin-right: 0;
-}
+
 .header {
   padding: 24px 0 24px;
   border-bottom: 1px solid #e7e9fc;
@@ -148,13 +146,12 @@ ol {
   padding: 120px 0;
 }
 .section-title-small {
-  flex-basis: calc((100% - 72px) / 4);
   display: flex;
+  gap: 24px;
 }
 .section-title-small-link {
-  margin-right: 24px;
+  flex-basis: calc((100% - 72px) / 4);
 }
-
 .section-title-small-h {
   color: #2e2f42;
   font-size: 20px;
